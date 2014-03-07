@@ -5,6 +5,7 @@ Almost every project we work on requires usage of some social icons.  We use the
 
 That's how 76design Social Icons came about.  This package, which is available via Bower, provides social icons for different social platforms which are customizable.  There are also css classes to allow different styles of social icons as well.
 
+
 ### Platforms Supported
 - Twitter `si-twitter`
 - Facebook `si-facebook`
@@ -26,7 +27,10 @@ That's how 76design Social Icons came about.  This package, which is available v
 - Pinterest `si-pinterest`
 - LinkedIn `si-linkedin`
 
+
 ### Usage
+
+Include the social-icons.css, or social-icons.scss if you're using SASS (requires Compass), and use the following css selectors.
 
 #### Simple Icons
     <i class="si si-twitter"></i>
@@ -48,3 +52,8 @@ That's how 76design Social Icons came about.  This package, which is available v
 
 #### Colored Circle Icons
     <i class="si-circle si-colored si-twitter"></i>
+
+
+### Note
+
+If you're using SASS, checkout the _variables.scss file for variables you can override.

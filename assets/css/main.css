@@ -1,0 +1,16 @@
+/* line 1, ../../scss/_base.scss */
+.icon-list {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 7, ../../scss/_base.scss */
+.icon-list > li {
+  float: left;
+  margin-right: 10px;
+}
+/* line 11, ../../scss/_base.scss */
+.icon-list > li a {
+  text-decoration: none;
+}
