@@ -1,0 +1,172 @@
+@import "compass/css3/font-face";
+$socialIcoFontPath: "social-icons" !default;
+
+@include font-face(
+		'social-icons',
+		font-files(
+				"#{$socialIcoFontPath}.woff", woff,
+				"#{$socialIcoFontPath}.ttf", truetype,
+				"#{$socialIcoFontPath}.svg#social-icons", svg),
+		'#{$socialIcoFontPath}.eot',
+		normal,
+		normal);
+
+/* Use the following CSS code if you want to use data attributes for inserting your sis */
+[data-si]:before {
+	font-family: 'social-icons';
+	content: attr(data-si);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per ico */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="ico-"] {
+*/
+.si-twitter, .si-facebook, .si-googleplus, .si-youtube,
+.si-flickr, .si-github, .si-wordpress, .si-blogger, .si-tumblr,
+.si-yahoo, .si-soundcloud, .si-skype, .si-reddit, .si-lastfm,
+.si-feed, .si-mail, .si-stackoverflow, .si-pinterest, .si-linkedin {
+	font-family: 'social-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.si {
+	color: $siDefaultColor;
+	display: inline-block;
+	font-size: $siDefaultFontSize;
+	padding: $siDefaultPadding;
+
+	&.si-small {
+		font-size: $siSmallFontSize;
+	}
+}
+
+.si-square {
+	@extend .si;
+	background-color: $siDefaultColor;
+	color: $siTextColor;
+	padding: $siSquarePadding;
+
+	&.si-linkedin {
+		padding: $siSquarePadding 8.5px;
+	}
+}
+
+.si-circle {
+	@extend .si;
+	background-color: $siDefaultColor;
+	color: $siTextColor;
+	padding: $siCirclePadding;
+	@include border-radius($siCircleRadius);
+
+	&.si-linkedin {
+		padding: $siCirclePadding 8.5px;
+	}
+}
+
+@mixin colored-icon($class, $color) {
+	&.#{$class} {
+		color: $color;
+
+		&.si-square {
+			background-color: $color;
+			color: $siTextColor;
+		}
+
+		&.si-circle {
+			background-color: $color;
+			color: $siTextColor;
+		}
+	}
+}
+
+.si-colored {
+	@include colored-icon(si-twitter, $siTwiterColor);
+	@include colored-icon(si-facebook, $siFacebookColor);
+	@include colored-icon(si-linkedin, $siLinkedinColor);
+	@include colored-icon(si-googleplus, $siGoogleplusColor);
+	@include colored-icon(si-youtube, $siYoutubeColor);
+	@include colored-icon(si-feed, $siBlogColor);
+	@include colored-icon(si-mail, $siMailColor);
+	@include colored-icon(si-flickr, $siFlickrColor);
+	@include colored-icon(si-github, $siGithubColor);
+	@include colored-icon(si-wordpress, $siWordpressColor);
+	@include colored-icon(si-blogger, $siBloggerColor);
+	@include colored-icon(si-tumblr, $siTumblrColor);
+	@include colored-icon(si-yahoo, $siYahooColor);
+	@include colored-icon(si-soundcloud, $siSoundcloudColor);
+	@include colored-icon(si-skype, $siSkypeColor);
+	@include colored-icon(si-reddit, $siRedditColor);
+	@include colored-icon(si-lastfm, $siLastfmColor);
+	@include colored-icon(si-stackoverflow, $siStackoverflowColor);
+	@include colored-icon(si-pinterest, $siPinterestColor);
+}
+
+.si-twitter:before {
+	content: "\e600";
+}
+.si-facebook:before {
+	content: "\e601";
+}
+.si-googleplus:before {
+	content: "\e602";
+}
+.si-youtube:before {
+	content: "\e603";
+}
+.si-flickr:before {
+	content: "\e604";
+}
+.si-github:before {
+	content: "\e605";
+}
+.si-wordpress:before {
+	content: "\e606";
+}
+.si-blogger:before {
+	content: "\e607";
+}
+.si-tumblr:before {
+	content: "\e608";
+}
+.si-yahoo:before {
+	content: "\e609";
+}
+.si-soundcloud:before {
+	content: "\e60a";
+}
+.si-skype:before {
+	content: "\e60b";
+}
+.si-reddit:before {
+	content: "\e60c";
+}
+.si-lastfm:before {
+	content: "\e60d";
+}
+.si-feed:before {
+	content: "\e60e";
+}
+.si-mail:before {
+	content: "\e60f";
+}
+.si-stackoverflow:before {
+	content: "\e610";
+}
+.si-pinterest:before {
+	content: "\e611";
+}
+.si-linkedin:before {
+	content: "\e612";
+}
