@@ -27,14 +27,20 @@ $siStackoverflowColor: #fca733;
 $siPinterestColor: #cb2028;
 
 // Default Font Sizes
-$si16x16FontSize: 12px;
-$si16x16Padding: 2px;
+$si16x16FontSize: 16px;
+$si32x32FontSize: 32px;
 
-$si32x32FontSize: 24px;
-$si32x32Padding: 4px;
+$siSquare32x32FontSize: 24px;
+$siSquare32x32Padding: 4px;
 
 $siDefaultFontSize: $si32x32FontSize;
-$siDefaultPadding: $si32x32Padding;
+//$siDefaultPadding: $si32x32Padding;
+
+$siSquareFontSize: $siSquare32x32FontSize;
+$siSquarePadding: $siSquare32x32Padding;
+
+$siSquare16x16FontSize: 12px;
+$siSquare16x16Padding: 2px;
 
 $siCircleFontSize: 20px;
 $siCirclePadding: 6px;

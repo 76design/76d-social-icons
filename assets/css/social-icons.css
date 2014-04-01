@@ -42,21 +42,22 @@ you can use the generic selector below, but it's slower:
 .si, .si-square, .si-circle {
   color: #666666;
   display: inline-block;
-  font-size: 24px;
-  padding: 4px;
-}
-/* line 50, ../../scss/_icons.scss */
-.si.si-linkedin, .si-linkedin.si-square, .si-linkedin.si-circle {
-  padding: 4px 5.5px;
+  font-size: 32px;
 }
 
-/* line 55, ../../scss/_icons.scss */
+/* line 50, ../../scss/_icons.scss */
 .si-square {
   background-color: #666666;
   color: white;
+  font-size: 24px;
+  padding: 4px;
+}
+/* line 57, ../../scss/_icons.scss */
+.si-square.si-linkedin {
+  padding: 4px 5.5px;
 }
 
-/* line 61, ../../scss/_icons.scss */
+/* line 62, ../../scss/_icons.scss */
 .si-circle {
   background-color: #666666;
   font-size: 20px;
@@ -68,21 +69,25 @@ you can use the generic selector below, but it's slower:
   -o-border-radius: 16px;
   border-radius: 16px;
 }
-/* line 69, ../../scss/_icons.scss */
+/* line 70, ../../scss/_icons.scss */
 .si-circle.si-linkedin {
   padding: 6px 7.5px;
 }
 
-/* line 74, ../../scss/_icons.scss */
+/* line 75, ../../scss/_icons.scss */
 .si-small {
+  font-size: 16px;
+}
+/* line 78, ../../scss/_icons.scss */
+.si-small.si-square {
   font-size: 12px;
   padding: 2px;
 }
-/* line 78, ../../scss/_icons.scss */
-.si-small.si-linkedin {
+/* line 82, ../../scss/_icons.scss */
+.si-small.si-square.si-linkedin {
   padding: 2px 3px;
 }
-/* line 82, ../../scss/_icons.scss */
+/* line 87, ../../scss/_icons.scss */
 .si-small.si-circle {
   font-size: 10px;
   padding: 3px;
@@ -92,369 +97,369 @@ you can use the generic selector below, but it's slower:
   -o-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 87, ../../scss/_icons.scss */
+/* line 92, ../../scss/_icons.scss */
 .si-small.si-circle.si-linkedin {
   padding: 3px 3.5px;
 }
 
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-twitter {
   color: #2ca8d2;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-twitter.si-square {
   background-color: #2ca8d2;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-twitter.si-circle {
   background-color: #2ca8d2;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-facebook {
   color: #305891;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-facebook.si-square {
   background-color: #305891;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-facebook.si-circle {
   background-color: #305891;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-linkedin {
   color: #4498c8;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-linkedin.si-square {
   background-color: #4498c8;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-linkedin.si-circle {
   background-color: #4498c8;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-googleplus {
   color: #ce4d39;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-googleplus.si-square {
   background-color: #ce4d39;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-googleplus.si-circle {
   background-color: #ce4d39;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-youtube {
   color: #e02927;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-youtube.si-square {
   background-color: #e02927;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-youtube.si-circle {
   background-color: #e02927;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-feed {
   color: #f9a144;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-feed.si-square {
   background-color: #f9a144;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-feed.si-circle {
   background-color: #f9a144;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-mail {
   color: #738a8d;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-mail.si-square {
   background-color: #738a8d;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-mail.si-circle {
   background-color: #738a8d;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-flickr {
   color: #de006a;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-flickr.si-square {
   background-color: #de006a;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-flickr.si-circle {
   background-color: #de006a;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-github {
   color: #85d768;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-github.si-square {
   background-color: #85d768;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-github.si-circle {
   background-color: #85d768;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-wordpress {
   color: #999999;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-wordpress.si-square {
   background-color: #999999;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-wordpress.si-circle {
   background-color: #999999;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-blogger {
   color: #f89738;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-blogger.si-square {
   background-color: #f89738;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-blogger.si-circle {
   background-color: #f89738;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-tumblr {
   color: #2c4762;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-tumblr.si-square {
   background-color: #2c4762;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-tumblr.si-circle {
   background-color: #2c4762;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-yahoo {
   color: #572c73;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-yahoo.si-square {
   background-color: #572c73;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-yahoo.si-circle {
   background-color: #572c73;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-soundcloud {
   color: #ff3600;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-soundcloud.si-square {
   background-color: #ff3600;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-soundcloud.si-circle {
   background-color: #ff3600;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-skype {
   color: #01aef2;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-skype.si-square {
   background-color: #01aef2;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-skype.si-circle {
   background-color: #01aef2;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-reddit {
   color: black;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-reddit.si-square {
   background-color: black;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-reddit.si-circle {
   background-color: black;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-lastfm {
   color: #e31c23;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-lastfm.si-square {
   background-color: #e31c23;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-lastfm.si-circle {
   background-color: #e31c23;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-stackoverflow {
   color: #fca733;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-stackoverflow.si-square {
   background-color: #fca733;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-stackoverflow.si-circle {
   background-color: #fca733;
   color: white;
 }
-/* line 94, ../../scss/_icons.scss */
+/* line 99, ../../scss/_icons.scss */
 .si-colored.si-pinterest {
   color: #cb2028;
 }
-/* line 97, ../../scss/_icons.scss */
+/* line 102, ../../scss/_icons.scss */
 .si-colored.si-pinterest.si-square {
   background-color: #cb2028;
   color: white;
 }
-/* line 102, ../../scss/_icons.scss */
+/* line 107, ../../scss/_icons.scss */
 .si-colored.si-pinterest.si-circle {
   background-color: #cb2028;
   color: white;
 }
 
-/* line 131, ../../scss/_icons.scss */
+/* line 136, ../../scss/_icons.scss */
 .si-twitter:before {
   content: "\e600";
 }
 
-/* line 134, ../../scss/_icons.scss */
+/* line 139, ../../scss/_icons.scss */
 .si-facebook:before {
   content: "\e601";
 }
 
-/* line 137, ../../scss/_icons.scss */
+/* line 142, ../../scss/_icons.scss */
 .si-googleplus:before {
   content: "\e602";
 }
 
-/* line 140, ../../scss/_icons.scss */
+/* line 145, ../../scss/_icons.scss */
 .si-youtube:before {
   content: "\e603";
 }
 
-/* line 143, ../../scss/_icons.scss */
+/* line 148, ../../scss/_icons.scss */
 .si-flickr:before {
   content: "\e604";
 }
 
-/* line 146, ../../scss/_icons.scss */
+/* line 151, ../../scss/_icons.scss */
 .si-github:before {
   content: "\e605";
 }
 
-/* line 149, ../../scss/_icons.scss */
+/* line 154, ../../scss/_icons.scss */
 .si-wordpress:before {
   content: "\e606";
 }
 
-/* line 152, ../../scss/_icons.scss */
+/* line 157, ../../scss/_icons.scss */
 .si-blogger:before {
   content: "\e607";
 }
 
-/* line 155, ../../scss/_icons.scss */
+/* line 160, ../../scss/_icons.scss */
 .si-tumblr:before {
   content: "\e608";
 }
 
-/* line 158, ../../scss/_icons.scss */
+/* line 163, ../../scss/_icons.scss */
 .si-yahoo:before {
   content: "\e609";
 }
 
-/* line 161, ../../scss/_icons.scss */
+/* line 166, ../../scss/_icons.scss */
 .si-soundcloud:before {
   content: "\e60a";
 }
 
-/* line 164, ../../scss/_icons.scss */
+/* line 169, ../../scss/_icons.scss */
 .si-skype:before {
   content: "\e60b";
 }
 
-/* line 167, ../../scss/_icons.scss */
+/* line 172, ../../scss/_icons.scss */
 .si-reddit:before {
   content: "\e60c";
 }
 
-/* line 170, ../../scss/_icons.scss */
+/* line 175, ../../scss/_icons.scss */
 .si-lastfm:before {
   content: "\e60d";
 }
 
-/* line 173, ../../scss/_icons.scss */
+/* line 178, ../../scss/_icons.scss */
 .si-feed:before {
   content: "\e60e";
 }
 
-/* line 176, ../../scss/_icons.scss */
+/* line 181, ../../scss/_icons.scss */
 .si-mail:before {
   content: "\e60f";
 }
 
-/* line 179, ../../scss/_icons.scss */
+/* line 184, ../../scss/_icons.scss */
 .si-stackoverflow:before {
   content: "\e610";
 }
 
-/* line 182, ../../scss/_icons.scss */
+/* line 187, ../../scss/_icons.scss */
 .si-pinterest:before {
   content: "\e611";
 }
 
-/* line 185, ../../scss/_icons.scss */
+/* line 190, ../../scss/_icons.scss */
 .si-linkedin:before {
   content: "\e612";
 }

@@ -45,17 +45,18 @@ you can use the generic selector below, but it's slower:
 	color: $siDefaultColor;
 	display: inline-block;
 	font-size: $siDefaultFontSize;
-	padding: $siDefaultPadding;
-
-	&.si-linkedin {
-		padding: $siDefaultPadding ($siDefaultPadding + 1.5px);
-	}
 }
 
 .si-square {
 	@extend .si;
 	background-color: $siDefaultColor;
 	color: $siTextColor;
+	font-size: $siSquare32x32FontSize;
+	padding: $siSquare32x32Padding;
+
+	&.si-linkedin {
+		padding: $siSquare32x32Padding ($siSquare32x32Padding + 1.5px);
+	}
 }
 
 .si-circle {
@@ -73,10 +74,14 @@ you can use the generic selector below, but it's slower:
 
 .si-small {
 	font-size: $si16x16FontSize;
-	padding: $si16x16Padding;
 
-	&.si-linkedin {
-		padding: $si16x16Padding ($si16x16Padding + 1px);
+	&.si-square {
+		font-size: $siSquare16x16FontSize;
+		padding: $siSquare16x16Padding;
+
+		&.si-linkedin {
+			padding: $siSquare16x16Padding ($siSquare16x16Padding + 1px);
+		}
 	}
 
 	&.si-circle {
