@@ -41,7 +41,7 @@ Include the social-icons.css, or social-icons.scss if you're using SASS (require
 #### Circle Icons
     <i class="si-circle si-twitter"></i>
 
-#### Small Icons
+#### Small (16x16) Icons
     <i class="si si-small si-twitter"></i>
 
 #### Colored Icons

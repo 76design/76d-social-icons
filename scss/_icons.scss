@@ -47,8 +47,8 @@ you can use the generic selector below, but it's slower:
 	font-size: $siDefaultFontSize;
 	padding: $siDefaultPadding;
 
-	&.si-small {
-		font-size: $siSmallFontSize;
+	&.si-linkedin {
+		padding: $siDefaultPadding ($siDefaultPadding + 1.5px);
 	}
 }
 
@@ -56,22 +56,37 @@ you can use the generic selector below, but it's slower:
 	@extend .si;
 	background-color: $siDefaultColor;
 	color: $siTextColor;
-	padding: $siSquarePadding;
-
-	&.si-linkedin {
-		padding: $siSquarePadding 8.5px;
-	}
 }
 
 .si-circle {
 	@extend .si;
 	background-color: $siDefaultColor;
+	font-size: $siCircleFontSize;
 	color: $siTextColor;
 	padding: $siCirclePadding;
 	@include border-radius($siCircleRadius);
 
 	&.si-linkedin {
-		padding: $siCirclePadding 8.5px;
+		padding: $siCirclePadding ($siCirclePadding + 1.5px);
+	}
+}
+
+.si-small {
+	font-size: $si16x16FontSize;
+	padding: $si16x16Padding;
+
+	&.si-linkedin {
+		padding: $si16x16Padding ($si16x16Padding + 1px);
+	}
+
+	&.si-circle {
+		font-size: $siCircle16x16FontSize;
+		padding: $siCircle16x16Padding;
+		@include border-radius($siCircle16x16Radius);
+
+		&.si-linkedin {
+			padding: $siCircle16x16Padding ($siCircle16x16Padding + 0.5px);
+		}
 	}
 }
 
