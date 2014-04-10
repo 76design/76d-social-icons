@@ -106,6 +106,16 @@ you can use the generic selector below, but it's slower:
 			padding: $siSquare24x24Padding ($siSquare24x24Padding + 1.5px);
 		}
 	}
+
+  &.si-circle {
+    font-size: $siCircle24x24FontSize;
+    padding: $siCircle24x24Padding;
+    @include border-radius($siCircle24x24Radius);
+
+    &.si-linkedin {
+      padding: $siCircle24x24Padding ($siCircle24x24Padding + 1px);
+    }
+  }
 }
 
 .si-large {
@@ -116,9 +126,19 @@ you can use the generic selector below, but it's slower:
 		padding: $siSquare48x48Padding;
 
 		&.si-linkedin {
-			padding: $siSquare48x48Padding ($siSquare48x48Padding + 1.5px);
+			padding: $siSquare48x48Padding ($siSquare48x48Padding + 2.5px);
 		}
 	}
+
+  &.si-circle {
+    font-size: $siCircle48x48FontSize;
+    padding: $siCircle48x48Padding;
+    @include border-radius($siCircle48x48Radius);
+
+    &.si-linkedin {
+      padding: $siCircle48x48Padding ($siCircle48x48Padding + 2.5px);
+    }
+  }
 }
 
 @mixin colored-icon($class, $color) {
