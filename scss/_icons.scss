@@ -95,6 +95,32 @@ you can use the generic selector below, but it's slower:
 	}
 }
 
+.si-medium {
+	font-size: $si24x24FontSize;
+
+	&.si-square {
+		font-size: $siSquare24x24FontSize;
+		padding: $siSquare24x24Padding;
+
+		&.si-linkedin {
+			padding: $siSquare24x24Padding ($siSquare24x24Padding + 1.5px);
+		}
+	}
+}
+
+.si-large {
+	font-size: $si48x48FontSize;
+
+	&.si-square {
+		font-size: $siSquare48x48FontSize;
+		padding: $siSquare48x48Padding;
+
+		&.si-linkedin {
+			padding: $siSquare48x48Padding ($siSquare48x48Padding + 1.5px);
+		}
+	}
+}
+
 @mixin colored-icon($class, $color) {
 	&.#{$class} {
 		color: $color;
