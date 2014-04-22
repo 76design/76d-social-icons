@@ -1,10 +1,16 @@
-76design Social Icons
-================
+# 76design Social Icons
 
 Almost every project we work on requires usage of some social icons.  We use the [Icomoon App](http://icomoon.io "Icomoon") to generate webfonts with all the social icons we need, then use some sass magic to load the fonts and map each icon to a css selector.  Considering this is something we do so often, we felt that it would be beneficial to build a package that could be reused on all our projects that would give us social icon selectors for a variety of social platforms without having to rebuild it each time.
 
 That's how 76design Social Icons came about.  This package, which is available via Bower, provides social icons for different social platforms which are customizable.  There are also css classes to allow different styles of social icons as well.
 
+## Installation
+
+### Installing from Bower
+
+    bower install 76d-social-icons
+
+## Examples and Usage
 
 ### Platforms Supported
 - Twitter `si-twitter`
@@ -54,6 +60,6 @@ Include the social-icons.css, or social-icons.scss if you're using SASS (require
     <i class="si-circle si-colored si-twitter"></i>
 
 
-### Note
+## Note
 
 If you're using SASS, checkout the _variables.scss file for variables you can override.
