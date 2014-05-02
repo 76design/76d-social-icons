@@ -2,38 +2,38 @@ $white: #FFF;
 $black: #000;
 
 // Default Colors
-$siDefaultColor: #666;
-$siTextColor: $white;
+$siDefaultColor: #666 !default;
+$siTextColor: $white !default;
 
 // Social Platform Colors
-$siTwiterColor: #2ca8d2;
-$siFacebookColor: #305891;
-$siLinkedinColor: #4498c8;
-$siGoogleplusColor: #ce4d39;
-$siYoutubeColor: #e02927;
-$siBlogColor: #f9a144;
-$siMailColor: #738a8d;
-$siFlickrColor: #de006a;
-$siGithubColor: #85d768;
-$siWordpressColor: #999999;
-$siBloggerColor: #f89738;
-$siTumblrColor: #2c4762;
-$siYahooColor: #572c73;
-$siSoundcloudColor: #ff3600;
-$siSkypeColor: #01aef2;
-$siRedditColor: #000000;
-$siLastfmColor: #e31c23;
-$siStackoverflowColor: #fca733;
-$siPinterestColor: #cb2028;
+$siTwiterColor: #2ca8d2 !default;
+$siFacebookColor: #305891 !default;
+$siLinkedinColor: #4498c8 !default;
+$siGoogleplusColor: #ce4d39 !default;
+$siYoutubeColor: #e02927 !default;
+$siBlogColor: #f9a144 !default;
+$siMailColor: #738a8d !default;
+$siFlickrColor: #de006a !default;
+$siGithubColor: #85d768 !default;
+$siWordpressColor: #999999 !default;
+$siBloggerColor: #f89738 !default;
+$siTumblrColor: #2c4762 !default;
+$siYahooColor: #572c73 !default;
+$siSoundcloudColor: #ff3600 !default;
+$siSkypeColor: #01aef2 !default;
+$siRedditColor: #000000 !default;
+$siLastfmColor: #e31c23 !default;
+$siStackoverflowColor: #fca733 !default;
+$siPinterestColor: #cb2028 !default;
 
 // Default Font Sizes
-$si16x16FontSize: 16px;
-$si24x24FontSize: 24px;
-$si32x32FontSize: 32px;
-$si48x48FontSize: 48px;
+$si16x16FontSize: 16px !default;
+$si24x24FontSize: 24px !default;
+$si32x32FontSize: 32px !default;
+$si48x48FontSize: 48px !default;
 
-$siSquare32x32FontSize: 24px;
-$siSquare32x32Padding: 4px;
+$siSquare32x32FontSize: 24px !default;
+$siSquare32x32Padding: 4px !default;
 
 $siDefaultFontSize: $si32x32FontSize;
 //$siDefaultPadding: $si32x32Padding;
@@ -41,27 +41,28 @@ $siDefaultFontSize: $si32x32FontSize;
 $siSquareFontSize: $siSquare32x32FontSize;
 $siSquarePadding: $siSquare32x32Padding;
 
-$siSquare16x16FontSize: 12px;
+$siSquare16x16FontSize: 12px !default;
 $siSquare16x16Padding: 2px;
 
-$siSquare24x24FontSize: 18px;
-$siSquare24x24Padding: 3px;
+$siSquare24x24FontSize: 18px !default;
+$siSquare24x24Padding: 3px !default;
 
-$siSquare48x48FontSize: 38px;
-$siSquare48x48Padding: 5px;
+$siSquare48x48FontSize: 38px !default;
+$siSquare48x48Padding: 5px !default;
 
-$siCircleFontSize: 20px;
-$siCirclePadding: 6px;
-$siCircleRadius: 16px;
+$siCircleFontSize: 20px !default;
+$siCirclePadding: 6px !default;
+$siCircleRadius: 16px !default;
 
-$siCircle16x16FontSize: 10px;
-$siCircle16x16Padding: 3px;
-$siCircle16x16Radius: 8px;
+$siCircle16x16FontSize: 10px !default;
+$siCircle16x16Padding: 3px !default;
+$siCircle16x16Radius: 8px !default;
 
-$siCircle24x24FontSize: 15px;
-$siCircle24x24Padding: 4.5px;
-$siCircle24x24Radius: 12px;
+$siCircle24x24FontSize: 15px !default;
+$siCircle24x24Padding: 4.5px !default;
+$siCircle24x24Radius: 12px !default;
 
-$siCircle48x48FontSize: 33px;
-$siCircle48x48Padding: 7.5px;
-$siCircle48x48Radius: 28px;
+$siCircle48x48FontSize: 33px !default;
+$siCircle48x48Padding: 7.5px !default;
+$siCircle48x48Radius: 28px !default;
+$siCircle48x48Radius: 28px !default;
