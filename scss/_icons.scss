@@ -30,7 +30,8 @@ you can use the generic selector below, but it's slower:
 .si-twitter, .si-facebook, .si-googleplus, .si-youtube,
 .si-flickr, .si-github, .si-wordpress, .si-blogger, .si-tumblr,
 .si-yahoo, .si-soundcloud, .si-skype, .si-reddit, .si-lastfm,
-.si-feed, .si-mail, .si-stackoverflow, .si-pinterest, .si-linkedin {
+.si-feed, .si-mail, .si-stackoverflow, .si-pinterest, .si-linkedin,
+.si-instagram {
 	font-family: 'social-icons';
 	speak: none;
 	font-style: normal;
@@ -177,6 +178,7 @@ you can use the generic selector below, but it's slower:
 	@include colored-icon(si-lastfm, $siLastfmColor);
 	@include colored-icon(si-stackoverflow, $siStackoverflowColor);
 	@include colored-icon(si-pinterest, $siPinterestColor);
+	@include colored-icon(si-instagram, $siInstagramColor);
 }
 
 .si-twitter:before {
@@ -235,4 +237,7 @@ you can use the generic selector below, but it's slower:
 }
 .si-linkedin:before {
 	content: "\e612";
+}
+.si-instagram:before {
+  content: "\e613";
 }
