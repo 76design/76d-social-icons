@@ -4,6 +4,8 @@ Almost every project we work on requires usage of some social icons.  We use the
 
 That's how 76design Social Icons came about.  This package, which is available via Bower, provides social icons for different social platforms which are customizable.  There are also css classes to allow different styles of social icons as well.
 
+[View demo](https://rawgit.com/76design/76d-social-icons/master/index.html)
+
 ## Installation
 
 ### Installing from Bower
